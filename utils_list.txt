@@ -1,0 +1,106 @@
+addpart		Informs the Linux kernel of new partition
+agetty		Alternativ e Linux getty; handles tty, login, shell
+arch		Print machine architecture
+blkid		Locate/print block device attributes
+blockdev	Call block device ioctls from the command line
+cal		Displays a calendar
+cfdisk		Curses based disk partition table manipulator
+chcpu		Configure CPUs
+chfn		Change your finger information
+chkdupexe	Find duplicate executables
+chrt		Manipulate real-time attributes of a process
+chsh		Change login shell
+col		Filter reverse line feeds from input
+colcrt		Filter nroff output for CRT previewing
+colrm		Remove columns from a file
+column		Convert lists into nice columns
+ctrlaltdel	Change the behavior of ctrl+alt+del
+cytune		Tune driver parameters for Cyclades-Z multiport serial card
+ddate		Convert Gregorian dates to Discordian dates
+delpart		Ask the Linux kernel to remove a partition
+dmesg		Examine or control the kernel ring buffer
+eject		Eject removable media
+elvtune		Tune the I/O elevator per blockdevice queue basis
+fallocate	Preallocate space to a file
+fdformat	Low-level format a floppy disk
+fdisk		Partition table manipulator for Linux
+findfs		Find a filesystem by label or UUID
+findmnt		List all mounted filesytems or search for a filesystem
+flock		Manages file locks from the command line or scripts
+fsck		Check and repair one or more Linux file systems
+fsck.cramfs	Check and repair a cramfs file system
+fsck.minix	Check and repair a Minix file system
+fsfreeze	Suspend and resume access to a filesystem
+fstrim		Discard unused blocks on a mounted filesystem
+getopt		Parse command options
+hexdump		Ascii, decimal, hexadecimal, octal dump
+hwclock		Query and set the hardware clock (RTC)
+ionice		Get/set program I/O scheduling class and priority
+ipcmk		Create various ipc resources
+ipcrm		Remove a message queue, semaphore, shared mem
+ipcs		Provide information on ipc facilities
+isosize		Outputs the length of a iso9660 file system
+kill		Send a signal to the specified process/group
+last		Show listing of last logged in users
+ldattach	Attach a line discipline to a serial line
+line		Read one line from the stdin and print it to stdout
+logger		Makes entries in the syslog system log
+login		Begin session on the system
+look		Display lines beginning with a given string
+losetup		Set up and control loop devices
+lsblk		Prints all block devices
+lscpu		Display information about the CPU architecture
+lslocks		List local system locks
+mcookie		Generate magic cookies for xauth
+mesg		Configure if messages from other users should be displayed
+mkfs		Build a Linux file system
+mkfs.bfs	Make an SCO bfs filesystem
+mkfs.cramfs	Make a cramfs filesystem
+mkfs.minix	Make a Minix filesystem
+mkswap		Set up a Linux swap area
+more		Filter for paging through text one screenful at a time
+mount		Mount a file system
+mountpoint	See if a directory is a mountpoint
+namei		Follow a pathname until a terminal point is found
+newgrp		Change the current group ID
+partx		Tell the kernel about presence and numbering of disk partitions
+pg		Browse pagewise through text files
+pivot_root	Change the root file system
+prlimit		Get and set a process resource limits
+raw		Bind a Linux raw character device
+readprofile	A tool to read kernel profiling information
+rename		Rename files
+renice		Alter priority of running processes
+resizepart	Informs the Linux kernel of a new partition size
+rev		Reverse lines of a file or files
+rtcwake		Enter a system sleep state until specified wakeup time
+script		Make typescript of terminal session
+scriptreplay	Play back typescripts, using timing information
+setarch		Change computer arch in new program and set personality flags
+setsid		Run a program in a new session
+setterm		Set terminal attributes
+sfdisk		Another partition table manipulator for Linux
+su		Change user ID or become super-user
+sulogin		Single-user login (used by init)
+swaplabel	Print or change the label or UUID of a swap area
+swapon		Enable devices and files for paging and swapping
+swapoff		Disable devices and files for paging and swapping
+switch_root	Switch to another filesystem as the root of the mount tree
+tailf		Follow the growth of a log file without side-effects
+taskset		Retrieve or set a process's CPU affinity
+tunelp		Set various parameters for the lp device (/dev/lpX)
+ul		Convert occurrences of underscores to terminal underlines
+umount		Unmount file systems
+unshare		Run program with some namespaces unshared from parent
+utmpdump	Dump UTMP and WTMP files in raw format
+uuidd		UUID generation daemon
+uuidgen		Create (and print) a new universally unique identifier (UUID)
+vigr		Edit the group or shadow-group file
+vipw		Edit the password or shadow-password file
+wall		Write a message to users
+wdctl		Show hardware watchdog status
+whereis		Locate the binary, source, and manual page files for a command
+wipefs		Wipe a filesystem signature from a device
+write		Send a message to another user
+
+
