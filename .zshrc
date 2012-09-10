@@ -10,10 +10,12 @@ ZSH_THEME="robbyrussell"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias pythonclean="rm *.py~ ; rm *.pyc"
 
-alias getutils="less .dotfiles/utils_list.txt"
-alias getdirection="less .dotfiles/direction_list.txt"
+# source alias file
+source .oh-my-zsh/custom/alias.zsh
+
+# source function file
+source .oh-my-zsh/custom/functions.zsh
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -28,12 +30,12 @@ alias getdirection="less .dotfiles/direction_list.txt"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment following line if you want red dots to be displayed while waiting for completion
-COMPLETION_WAITING_DOTS="true"
+#COMPLETION_WAITING_DOTS="true"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git)
+plugins=(git python)
 
 source $ZSH/oh-my-zsh.sh
 
