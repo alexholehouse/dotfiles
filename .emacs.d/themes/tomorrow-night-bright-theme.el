@@ -13,11 +13,13 @@
 (deftheme tomorrow-night-bright
   "A Pastel Coloured Theme")
 
+;; old comment #969896
+
 (let ((background "#000000")
       (current-line "#2a2a2a")
       (selection "#424242")
       (foreground "#eaeaea")
-      (comment "#969896")
+      (comment "#ff3300")
       (cursor "#9f9f9f")
       (red "#d54e53")
       (orange "#e78c45")

@@ -12,10 +12,11 @@ ZSH_THEME="robbyrussell"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # source alias file
-source .oh-my-zsh/custom/alias.zsh
+source ~/.oh-my-zsh/custom/alias.zsh
+source ~/.oh-my-zsh/custom/private.zsh
 
 # source function file
-source .oh-my-zsh/custom/functions.zsh
+source ~/.oh-my-zsh/custom/functions.zsh
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
