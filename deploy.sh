@@ -1,5 +1,7 @@
 #!/bin/sh
 
+cp .emacs.d/
+echo "Updated .emacs.d/ ..."
 cp .emacs ~/
 echo "Updated .emacs ..."
 cp -r .gedit/ ~/
