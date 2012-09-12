@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cp .emacs.d/
+cp -r .emacs.d/ ~/
 echo "Updated .emacs.d/ ..."
 cp .emacs ~/
 echo "Updated .emacs ..."
