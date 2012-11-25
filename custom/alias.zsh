@@ -9,4 +9,5 @@ alias tu='top -o cpu' # top sorted by cpu
 alias getutils="less ~/.oh-my-zsh/custom/helpFiles/utils_list.txt"
 alias getdirection="less ~/.oh-my-zsh/custom/helpFiles/direction_list.txt"
 
-#
+# help with tarballs
+alias tarhelp='echo tar -cvzf name.tgz subdir'
