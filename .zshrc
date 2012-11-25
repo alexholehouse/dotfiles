@@ -13,7 +13,7 @@ ZSH_THEME="robbyrussell"
 
 # source alias file
 source ~/.oh-my-zsh/custom/alias.zsh
-source ~/.oh-my-zsh/custom/private.zsh
+source ~/.oh-my-zsh/custom/local.zsh
 
 # source function file
 source ~/.oh-my-zsh/custom/functions.zsh
