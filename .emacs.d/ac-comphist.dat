@@ -1,84 +1,514 @@
-((("alias" .
-   [1 0 0 0 0])
-  ("Backend" .
-   [1 0 0 0 0 0 0])
-  ("Geeneus" .
-   [1 0 0 0 0 0 0])
-  ("01" .
-   [1 0])
-  ("code" .
-   [1 0 0 0])
-  ("reason" .
-   [1 0 0 0 0 0])
-  ("err" .
-   [3 0 0])
-  ("URLError" .
-   [0 0 1 0 1 0 0 0])
-  ("ID_type" .
-   [0 0 1 0 1 0 0])
-  ("ProteinParser" .
-   [0 0 0 0 0 0 0 0 1 0 0 0 0])
-  ("for" .
-   [1 0 0])
-  ("else" .
-   [1 0 0 0])
-  ("True" .
-   [1 0 0 0])
-  ("not" .
-   [1 0 0])
-  ("exists" .
+((("database" .
+   [3 0 0 0 0 0 0 0])
+  ("access" .
    [0 0 0 0 1 0])
-  ("ID" .
-   [2 0])
-  ("format" .
-   [4 0 0 0 0 0])
-  ("print" .
-   [4 0 0 0 0])
-  ("error" .
-   [1 0 0 0 0])
-  ("ProtObj" .
-   [0 0 0 1 0 0 0])
-  ("ProteinID" .
-   [3 0 0 0 0 0 0 1 2])
-  ("protein_datastore" .
-   [1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("if" .
-   [4 0])
-  ("get_variants" .
-   [0 0 0 0 0 0 0 2 1 0 0 0])
-  ("recordStore" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("len" .
+  ("KeyError" .
+   [0 0 0 1 0 0 0 0])
+  ("exception" .
+   [0 0 0 0 0 0 1 0 0])
+  ("NCBIISO" .
+   [1 0 0 0 0 0 0])
+  ("UNIISO" .
+   [0 0 1 0 0 0])
+  ("autofail" .
+   [0 0 0 0 1 0 0 0])
+  ("patho" .
+   [2 0 0 0 0])
+  ("pathocounter" .
+   [3 0 0 0 0 0 0 0 1 0 0 0])
+  ("isoFormName" .
+   [0 0 0 0 1 1 0 0 0 0 0])
+  ("boundary" .
+   [3 0 0 1 1 0 0 0])
+  ("dir" .
    [1 0 0])
-  ("def" .
-   [2 0 0])
-  ("self" .
-   [7 0 0 0])
-  ("re" .
+  ("description" .
+   [1 0 0 0 2 2 2 0 0 0 0])
+  ("record" .
+   [10 0 0 0 0 0])
+  ("comma" .
+   [1 0 0 0 0])
+  ("IndexError" .
+   [0 0 0 0 0 0 1 0 0 0])
+  ("op" .
    [1 0])
-  ("import" .
-   [2 0 0 0 0 0])
-  ("return" .
-   [6 0 0 0 0 0])
-  ("Proteome" .
+  ("option" .
+   [1 0 0 0 0 0])
+  ("passed" .
+   [0 0 0 0 3 0])
+  ("options" .
+   [6 0 0 0 0 0 0])
+  ("parenSearch" .
+   [0 0 0 0 0 1 1 0 0 0 0])
+  ("commaSearch" .
+   [1 0 0 0 0 0 1 0 0 0 0])
+  ("andSearch" .
+   [2 0 0 0 2 0 0 0 0])
+  ("AttributeError" .
+   [0 0 0 1 1 0 0 0 0 0 0 0 0 0])
+  ("group" .
+   [1 0 0 1 0])
+  ("locations" .
+   [1 0 0 0 0 0 0 0 0])
+  ("lengthOfTest" .
+   [0 0 0 0 0 0 0 0 0 1 0 0])
+  ("FOR" .
+   [1 0 0])
+  ("10" .
+   [1 0])
+  ("NCBI" .
+   [1 0 0 1])
+  ("keys" .
+   [2 0 0 0])
+  ("UNIPROT" .
+   [1 0 0 0 1 0 0])
+  ("test_get_isoforms2" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("test_get_isoforms1" .
+   [0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0])
+  ("assertEqual" .
+   [0 0 0 0 0 0 0 0 1 0 0])
+  ("getIsoforms" .
+   [0 0 0 0 2 0 0 0 0 0 0])
+  ("email" .
+   [1 0 0 0 0])
+  ("Entrez" .
+   [1 0 0 0 0 0])
+  ("proteinObject" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("ALL" .
+   [2 0 0])
+  ("ProteinObject" .
+   [0 0 0 0 0 0 0 0 1 1 0 0 0])
+  ("get_gene_name" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("get_domains" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("get_taxonomy" .
+   [0 0 0 0 0 0 0 1 0 0 1 0])
+  ("get_species" .
+   [1 0 0 0 0 0 0 0 0 1 0])
+  ("get_other_accessions" .
+   [0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("domains" .
+   [5 0 0 0 0 0 0])
+  ("str" .
+   [15 0 1])
+  ("_extract_gene_name" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("gene_name" .
+   [4 0 0 0 0 0 0 0 0])
+  ("_extract_domain_list" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("domain_list" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("domain" .
+   [1 0 0 0 1 0])
+  ("_extract_taxonomy_string" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Taxonomy" .
+   [0 0 0 1 4 0 1 0])
+  ("_extract_species" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("_extract_geneID" .
+   [0 0 0 1 1 1 1 0 0 0 0 0 0 0 0])
+  ("species" .
+   [7 0 0 0 0 0 0])
+  ("proteinxml" .
+   [3 0 0 0 0 0 0 0 1 0])
+  ("_extract_other_accessions" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("other_accessions" .
+   [0 0 0 0 0 1 4 0 1 0 0 0 0 0 0 0])
+  ("del" .
+   [1 0 0])
+  ("append" .
+   [12 0 0 0 0 0])
+  ("domainList" .
+   [1 0 0 0 0 0 2 1 0 0])
+  ("name" .
+   [7 0 0 0])
+  ("organism" .
    [1 0 0 0 0 0 0 0])
-  ("~/.eclipse/Tomorrow-Night.epf" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("~/.gedit/tomorrow-night-bright.xml" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("file" .
+  ("tempDomainDictionary" .
+   [0 0 0 0 0 0 0 2 0 1 1 0 0 0 0 0 0 0 0 0])
+  ("xml" .
+   [4 0 0])
+  ("prot_accessions" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("set" .
+   [4 0 0])
+  ("fetchCounter" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("protein_xml" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("UniprotAPI" .
+   [0 0 0 2 1 0 0 0 0 0])
+  ("true" .
+   [1 0 0 0])
+  ("uniProtAPI" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("False" .
+   [8 0 0 0 0])
+  ("UniProt" .
+   [0 0 1 2 0 0 0])
+  ("deployment/Genome.py" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("deployment" .
+   [0 0 0 0 0 0 1 0 0 0])
+  ("then" .
+   [2 0 0 0])
+  ("deployment/" .
+   [0 0 2 2 0 0 0 0 0 0 0])
+  ("Geeneus/LICENSE" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("../cli/cli/cli.py" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0])
+  ("PTMScoutQuery" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("class" .
+   [1 0 0 0 0])
+  ("in" .
+   [21 0])
+  ("PTMScout" .
+   [3 0 0 0 0 0 0 0])
+  ("with" .
    [1 0 0 0])
   ("query" .
    [1 0 0 0 0])
-  ("with" .
+  ("file" .
    [1 0 0 0])
-  ("PTMScout" .
-   [3 0 0 0 0 0 0 0])
-  ("in" .
-   [1 0])
-  ("class" .
+  ("~/.gedit/tomorrow-night-bright.xml" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("~/.eclipse/Tomorrow-Night.epf" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Proteome" .
+   [1 0 0 0 0 0 0 0])
+  ("return" .
+   [37 0 0 0 0 0])
+  ("import" .
+   [13 0 0 1 0 1])
+  ("re" .
+   [3 0])
+  ("self" .
+   [68 0 0 0])
+  ("def" .
+   [31 0 0])
+  ("len" .
+   [18 0 0])
+  ("recordStore" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("get_variants" .
+   [0 0 0 0 0 0 0 2 1 0 1 0])
+  ("if" .
+   [39 0])
+  ("protein_datastore" .
+   [1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("ProteinID" .
+   [9 0 0 0 0 0 2 3 2])
+  ("ProtObj" .
+   [0 0 0 1 0 0 0])
+  ("error" .
    [1 0 0 0 0])
-  ("PTMScoutQuery" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 0])
-  ("source" .
-   [1 0 0 0 0 0])))
+  ("print" .
+   [98 0 0 1 0])
+  ("format" .
+   [6 0 0 0 0 0])
+  ("ID" .
+   [28 0])
+  ("exists" .
+   [0 0 0 0 1 0])
+  ("not" .
+   [15 0 0])
+  ("True" .
+   [6 0 0 0])
+  ("else" .
+   [9 0 0 0])
+  ("for" .
+   [19 0 0])
+  ("ProteinParser" .
+   [1 0 0 0 0 0 0 0 2 1 0 0 0])
+  ("ID_type" .
+   [1 0 1 0 1 1 0])
+  ("URLError" .
+   [0 0 1 0 1 0 0 0])
+  ("err" .
+   [5 0 0])
+  ("reason" .
+   [1 0 0 0 0 0])
+  ("code" .
+   [1 0 0 0])
+  ("01" .
+   [2 0])
+  ("Geeneus" .
+   [1 0 0 0 0 0 0])
+  ("Backend" .
+   [2 0 0 0 0 1 0])
+  ("alias" .
+   [1 0 0 0 0])
+  ("id" .
+   [3 0])
+  ("IF" .
+   [2 0])
+  ("match" .
+   [5 0 0 0 0])
+  ("or" .
+   [9 0])
+  ("and" .
+   [6 0 0])
+  ("get" .
+   [5 0 0])
+  ("get_annotations" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("temp_dic" .
+   [0 0 0 0 1 0 0 0])
+  ("list" .
+   [4 0 0 0])
+  ("pass" .
+   [10 0 0 0])
+  ("try" .
+   [14 0 0])
+  ("SQLAlchamy" .
+   [0 0 0 0 0 0 0 0 0 1])
+  ("except" .
+   [11 0 0 1 0 0])
+  ("get_raw_xml" .
+   [0 0 0 0 0 1 0 0 0 0 0])
+  ("FileManager" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("DBManager" .
+   [0 0 1 0 0 0 0 0 0])
+  ("example" .
+   [1 0 0 0 0 0 0])
+  ("cli" .
+   [4 0 0])
+  ("print_in_middle" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("test" .
+   [1 0 0 0])
+  ("int" .
+   [10 0 0])
+  ("border" .
+   [2 0 0 0 0 0])
+  ("length_of_message" .
+   [1 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0])
+  ("message" .
+   [2 0 0 0 0 0 0])
+  ("float" .
+   [2 0 0 0 0])
+  ("offset" .
+   [6 0 0 0 0 0])
+  ("when" .
+   [1 0 0 0])
+  ("displayString" .
+   [0 0 1 1 0 0 0 0 0 0 0 0 0])
+  ("error_and_quit" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("clear_screen" .
+   [0 0 0 0 0 0 1 0 0 0 0 0])
+  ("warning_and_continue" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("../Geeneus/" .
+   [0 0 0 1 0 0 0 0 0 0 0])
+  ("../Geeneus/Geeneus/" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1])
+  ("../Geeneus/Geeneus/LICENSE" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("/data/ptmscout/ptmscout_web/ptmscout/database/" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("echo" .
+   [2 0 0 0])
+  ("mkdir" .
+   [1 0 1 0 0])
+  ("deployment/Backend/" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("cmd" .
+   [1 0 0])
+  ("dogface" .
+   [0 0 0 0 1 0 0])
+  ("fuck" .
+   [1 0 0 0])
+  ("hell" .
+   [1 0 0 0])
+  ("command" .
+   [2 0 0 0 0 0 0])
+  ("__file__" .
+   [0 0 0 0 0 1 0 0])
+  ("__init__" .
+   [0 0 1 0 0 0 0 0])
+  ("domObject" .
+   [2 0 0 2 3 0 0 0 0])
+  ("db" .
+   [5 0])
+  ("listOfdbRefs" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("getElementsByTagName" .
+   [0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0])
+  ("accList" .
+   [3 0 0 0 2 0 0])
+  ("extend" .
+   [1 0 0 1 0 0])
+  ("continue" .
+   [4 0 0 0 0 0 0 0])
+  ("element" .
+   [17 0 0 0 0 1 0])
+  ("elementList" .
+   [1 0 0 0 0 0 0 0 1 0 0])
+  ("nodeName" .
+   [6 0 0 0 2 1 0 0])
+  ("subElement" .
+   [3 0 0 4 2 0 0 0 0 0])
+  ("childNodes" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("nodeType" .
+   [1 0 0 0 0 0 0 0])
+  ("ELEMENT_NODE" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("3" .
+   [3])
+  ("getAttribute" .
+   [0 0 0 0 1 0 0 0 0 0 0 0])
+  ("_getOtherAccessionValues" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("dom" .
+   [4 0 0])
+  ("accessionID" .
+   [7 0 0 0 0 0 0 0 0 0 0])
+  ("_getSpecies" .
+   [0 0 0 0 0 1 0 0 0 0 0])
+  ("gene" .
+   [1 0 0 0])
+  ("_getProteinName" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("_getProteinGeneID" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("geneName" .
+   [2 0 0 0 0 0 0 0])
+  ("_extract_protein_name" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("nameString" .
+   [2 0 0 0 2 2 0 0 0 0])
+  ("find" .
+   [5 0 0 0])
+  ("start" .
+   [12 0 0 0 0])
+  ("END" .
+   [1 0 1])
+  ("end" .
+   [2 0 0])
+  ("no" .
+   [1 0])
+  ("elif" .
+   [3 0 0 0])
+  ("tempID" .
+   [5 0 0 0 0 0])
+  ("__internal_efG" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("queryString" .
+   [0 0 0 0 0 0 5 0 0 0 0])
+  ("handle" .
+   [3 0 0 0 0 0])
+  ("limit" .
+   [1 0 0 0 0])
+  ("TRUE" .
+   [1 0 0 0])
+  ("_getPfamDOM" .
+   [0 0 0 0 0 0 0 0 0 1 0])
+  ("Network" .
+   [0 0 0 0 1 0 0])
+  ("PFAM" .
+   [1 0 0 0])
+  ("PfamNetworkRequest" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("_isValidXML" .
+   [0 0 0 1 1 0 0 0 0 0 0])
+  ("raise" .
+   [8 0 0 0 0])
+  ("UniprotAPIException" .
+   [0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0])
+  ("PfamDomObject" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("Pfam" .
+   [1 0 0 0])
+  ("sequence" .
+   [9 0 0 0 0 0 0 0])
+  ("note" .
+   [1 0 0 0])
+  ("upper" .
+   [4 0 0 0 0])
+  ("location" .
+   [3 0 0 0 0 0 0 0])
+  ("tempDict" .
+   [1 0 0 0 1 2 0 0])
+  ("accession" .
+   [3 0 0 0 0 0 0 0 1])
+  ("_getDomains" .
+   [0 0 0 0 0 1 0 0 0 0 0])
+  ("Exception" .
+   [1 0 0 0 1 0 0 0 0])
+  ("do" .
+   [1 0])
+  ("_getTaxonomy" .
+   [0 0 0 0 0 0 1 0 0 0 0 0])
+  ("taxon" .
+   [3 0 0 0 0])
+  ("taxonVal" .
+   [1 0 0 0 0 0 1 0])
+  ("_extract_isoforms" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("defString" .
+   [1 0 0 0 1 1 0 0 0])
+  ("lower" .
+   [1 0 0 0 0])
+  ("event" .
+   [13 0 0 0 0])
+  ("splicingEvents" .
+   [1 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("isoformList" .
+   [2 0 0 0 0 0 0 0 3 0 0])
+  ("isoform" .
+   [10 0 0 3 6 0 0])
+  ("sort" .
+   [2 0 0 0])
+  ("of" .
+   [4 0])
+  ("isoformSequenceList" .
+   [1 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0])
+  ("constraints" .
+   [5 0 0 0 0 0 0 1 1 0 1])
+  ("checkAndBuildConstraints" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("eventDetails" .
+   [0 0 0 0 0 3 2 0 0 0 0 0])
+  ("constraintsList" .
+   [1 0 0 0 0 0 0 0 0 0 0 1 2 0 0])
+  ("constraint" .
+   [4 0 0 0 0 0 0 0 0 0])
+  ("IsoformException" .
+   [0 0 1 3 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("returnConst" .
+   [1 0 0 0 0 0 0 2 0 0 0])
+  ("offsetVector" .
+   [2 0 0 0 0 0 3 1 0 0 0 0])
+  ("stop" .
+   [9 0 0 0])
+  ("sect1" .
+   [2 0 0 0 0])
+  ("sect2" .
+   [2 0 0 0 0])
+  ("xrange" .
+   [1 0 0 0 0 0])
+  ("None" .
+   [1 0 0 0])
+  ("seqLen" .
+   [2 0 0 0 0 0])
+  ("deltaOffset" .
+   [0 0 0 0 0 3 0 0 0 0 0])
+  ("is" .
+   [1 0])
+  ("as" .
+   [1 0])
+  ("isoforms" .
+   [6 0 0 0 0 0 0 0])
+  ("stops" .
+   [0 0 0 0 2])))
