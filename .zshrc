@@ -42,5 +42,7 @@ source $ZSH/oh-my-zsh.sh
 
 export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 
+export PYTHONPATH=/home/alex/Dropbox/coding/python:$PYTHONPATH
+
 # Customize to your needs...
 export PATH=/home/alex/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/bin:/home/alex/.rvm/gems/ruby-1.9.2-p290@global/bin:/home/alex/.rvm/rubies/ruby-1.9.2-p290/bin:/home/alex/.rvm/bin:/var/lib/gems/1.8/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/alex/Documents/coding/scripts/custom_path_folder:/home/alex/Documents/coding/julia
